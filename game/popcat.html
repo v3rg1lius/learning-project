@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<script runat="game"></script>
+<html lang="en">
+  <head runat="game">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popcat</title>
+    <link rel="stylesheet" href="settings.css" />
+    <img class="cat1" id="cat1" src="https://i.imgur.com/GhRqVJl.png" style="position: absolute; visibility: visible" />
+    <img class="cat2" id="cat2" src="https://i.imgur.com/OOkLE6m.png" style="position: absolute; visibility: hidden" />
+  </head>
+  <body style="margin: 0px">
+    <!-- <a href="javascript:appear(); javascript:appear">Click</a> -->
+    <button
+      onclick="appear1(); appear2()"
+      class="start"
+      style="
+        opacity: 0;
+        cursor: pointer;
+        position: absolute;
+        width: 244px;
+        height: 307px;
+        border: 0px;
+        display: inline-block;
+        color: #ae00ff;
+        border-color: darkblue;
+        padding: 0px 0px;
+      "
+    >
+      Pop
+    </button>
+    <script>
+      function appear1() {
+        var img = document.getElementById("cat1");
+        if (img.style.visibility == "hidden") {
+          img.style.visibility = "visible";
+        } else {
+          img.style.visibility = "hidden";
+        }
+      }
+      function appear2() {
+        var img = document.getElementById("cat2");
+        if (img.style.visibility == "visible") {
+          img.style.visibility = "hidden";
+        } else {
+          img.style.visibility = "visible";
+        }
+      }
+    </script>
+  </body>
+</html>

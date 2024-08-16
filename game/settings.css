@@ -1,0 +1,26 @@
+/*.cat1 {
+    visibility:visible;
+    width: 244px;
+    height: 335px;
+    float: left;
+    position: absolute;
+}
+.cat2 {
+    visibility: hidden;
+    width: 244px;
+    height: 335px;
+    float: left; 
+    position: absolute;
+} 
+.start {
+cursor: pointer;
+position: absolute;
+top: 400px;
+left: 75px;
+width: 100px;
+height: 30px;
+}
+*/
+.start:hover {
+    background-color:cyan;
+  }

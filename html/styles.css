@@ -1,0 +1,30 @@
+.main-text1 {
+   position: relative;
+   left: 30px;
+   width: fit-content;
+   font-style: unset;
+   font-size: 24px;
+   color: rgb(0, 0, 0);
+}
+.main-text2 {
+   position: absolute;
+   top: 310px;
+   right: 50px;
+   left: 50px;
+   height: 150px;
+   border: 1px solid #000;
+   width: fit-content;
+   font-style: unset;
+   font-size: 24px;
+   color: rgb(0, 0, 0);
+}
+.site {
+   color: rgb(0, 17, 255);
+   font-style: italic;
+   /* transition: all 0.5s ease;
+   &:hover {
+      color: red;
+   } */
+   
+}
+

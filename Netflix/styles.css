@@ -1,0 +1,16 @@
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+direction: ltr;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+font-size: 16px;
+color: #fff;
+background-color: #000;
+display: flex;
+height: 24px;
+justify-content: space-between;
+left: 0;
+padding: 16px 3%;
+position: fixed;
+right: 0;
+top: 0;
+z-index: 20;
